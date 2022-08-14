@@ -1,0 +1,80 @@
+/* 일반 태그 css */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+
+/* 일반 태그 css */
+
+
+/* id 태그 css */
+
+/* 전체적인 container를 화면 중앙에 맞추기 위해 position을 절대 위치(absolute)로 맞춘 후, */
+/* width값과 height값을 주게 되면 div의 크기 때문에 화면 중앙 정렬이 되지 않는다. */
+/* 그래서 margin으로 width값, height값 위치로 크기의 반 만큼 이동시켜 가운데 정렬을 했다. */
+#loginContainer {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 400px;
+  height: 500px;
+  margin: -200px 0 0 -250px;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 1.2rem;
+}
+
+#loginText {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#btnContainer {
+  margin-left: 8rem;
+  margin-top: 2rem;
+}
+
+#btnContainer button {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  border: none;
+  background-color: powderblue;
+  border-radius: 5px;
+  width: 8rem;
+  height: 3rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+#btnContainer button:hover {
+  background-color: blue;
+  color: white;
+}
+
+/* id 태그 css */
+
+
+/* class 태그 css */
+
+.idpwContainer {
+  margin: 3rem 0 2rem 2rem;
+}
+
+.idpwContainer p {
+  margin: 0;
+}
+
+.idpwContainer input {
+  width: 15rem;
+  height: 3rem;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+}
+
+/* class 태그 css */

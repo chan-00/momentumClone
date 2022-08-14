@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>todo Page</title>
+    <link rel="stylesheet" href="css/todomainStyle.css">
+  </head>
+  <body>
+    <div id="weatherContainer" class="textColorWhite">
+      <span id="locName"></span>
+      <span id="locTemp"></span><br>
+      <span id="locWeather"></span><br>
+      <button id="logoutbtn">Logout</button>
+    </div>
+    <div id="headingText" class="textCenter textColorWhite">
+      <h2 id="clock">00:00</h2>
+      <p id="greetingText">Hello</p>
+    </div>
+    <form id="input-form" class="textCenter">
+      <input required id="inputTodo" type="text" placeholder="Input your todo list!" autocomplete="off">
+    </form>
+    <div id="todoContainer"></div>
+    <div id="quoteContainer" class="textCenter textColorWhite">
+      <p id="quote"></p>
+      <p id="author"></p>
+    </div>
+
+    <script src="js/apiKey.js"></script>
+    <script src="js/todoBackgroundImg.js"></script>
+    <script src="js/todoClock.js"></script>
+    <script src="js/todoGreeting.js"></script>
+    <script src="js/todoManagement.js"></script>
+    <script src="js/todoQuote.js"></script>
+    <script src="js/todoWeather.js"></script>
+    <script src="js/todoLogout.js"></script>
+
+  </body>
+</html>
